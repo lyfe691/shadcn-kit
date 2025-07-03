@@ -5,7 +5,6 @@ import {
   TooltipTrigger,
 } from "@/components/ui/tooltip"
 import { ModeToggle } from "@/components/mode-toggle"
-import Link from "next/link"
 
 export default function Home() {
   return (
@@ -18,12 +17,13 @@ export default function Home() {
       <div>
         <Tooltip>
           <TooltipTrigger asChild>
-            <Link href="/dashboard">
-              <Button variant="link">Go to Sidebar Demo →</Button>
-            </Link>
+            <Button variant="link">Hover me!</Button>
           </TooltipTrigger>
           <TooltipContent side="bottom">
-            <p>sidebar-07</p>
+            <p>
+              Yes, the tooltip provider is already in{" "}
+              <code>app/layout.tsx</code>
+            </p>
           </TooltipContent>
         </Tooltip>
       </div>
