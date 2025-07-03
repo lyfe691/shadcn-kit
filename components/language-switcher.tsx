@@ -21,17 +21,6 @@ export function LanguageSwitcher() {
     router.push(pathname, { locale: newLocale });
   };
 
-  const getCurrentLanguageLabel = () => {
-    switch (locale) {
-      case "en":
-        return "English";
-      case "ja":
-        return "日本語";
-      default:
-        return "English";
-    }
-  };
-
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
