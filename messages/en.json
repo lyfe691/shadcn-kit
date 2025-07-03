@@ -1,0 +1,7 @@
+{
+  "Page": {
+    "button": "Button",
+    "hoverMe": "Hover me!",
+    "tooltipText": "Yes, the tooltip provider is already in app/layout.tsx"
+  }
+} 
